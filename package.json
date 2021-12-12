@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.31.0",
+    "@pinia/nuxt": "^0.1.6",
+    "core-js": "^3.15.1",
+    "nuxt-edge": "latest",
+    "pinia": "^2.0.6"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
+    "@nuxtjs/pwa": "^3.3.5"
+  }
+}

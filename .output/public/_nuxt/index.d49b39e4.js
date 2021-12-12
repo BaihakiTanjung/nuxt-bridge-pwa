@@ -1,0 +1,1 @@
+import{n as t}from"./client.a89f8abb.js";import"./vendor.13047ac8.js";const n={};var r=t({},(function(){var t=this.$createElement,n=this._self._c||t;return n("div",[n("Tutorial")],1)}),[],!1,e,null,null,null);function e(t){for(let r in n)this[r]=n[r]}var i=function(){return r.exports}();export{i as default};
